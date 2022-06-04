@@ -1,0 +1,136 @@
+> LUIS application information
+> !# @app.name = Time
+> !# @app.desc = Time
+> !# @app.versionId = 0.01
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+## askForTime
+- tell me the time
+- time
+- tell me time
+- tell me the time
+- tell me the time in alberta canada
+- time currently in london
+- time in hawaii
+- tell me time in saskatchewan
+- tell me the time right now in columbus ohio
+- current time
+- do you have the time
+- do you have the current time
+- can you give me the time
+- do you know how to get the time
+- are you able to access the time
+- are you actually permitted to access the time
+- do you know the current time
+- what time is it right now
+- what time is it
+- tell me what time it is right now
+- let me know the time
+- let us see the time
+- i wish we could see the current time
+- we wish we could know what time it is right now
+- i want to know what time it is
+- i want to know the time
+- can people know the time
+- are people allowed to see the time
+- can i see the time
+- are we permitted to see the time
+- may i see the time
+- bring up the current time
+- take me to the time
+- access time
+- let me see the time
+- display the current time
+- what time it is
+- go to time
+- open the time
+- open the timing screen
+- access the time app
+- hugo what's the time is it
+- dubai what time is it
+- what's the time
+- what time is it now
+
+## askForDate
+- what the day
+- whats the day
+- what's the day
+- what is the day
+- todays date
+- tell me today's date
+- what's the date today
+- what's the date
+- what day is it
+- do you have the date
+- do you have the current day
+- can you give me the day
+- do you know the current date
+- what day is it right now
+- what date is it
+- tell me what day it is right now
+- let me know the date
+- we wish we could know what day it is right now
+- i want to know what day it is
+- i want to know the date
+- what day it is
+- what's today
+- what is today
+- what is today's date
+- what date is today
+- what's today's date
+- current date
+
+## whenIsBirthday
+- do you know when my birthday is
+- when was i born
+- when will it be my birthday
+- what's my birthday
+- when's it gonna be someone's birthday
+- what day is george's birthday
+- how many days until my birthday
+- how many more months before tim's birthday
+- how many weekends till my birthday
+- is it four months since i was born
+- when's my birthday
+- is it your birthday
+- when is my birthday
+
+## whenIsHoliday
+- when is tax day
+- when was yom kippur
+- when's presidents' day
+- what day is sukkot
+- what day was halloween
+- when will it be memorial day
+- when's it going to be fourth of july
+- when is it going to be thanksgiving
+- when's it gonna be easter
+- when is it gonna be passover
+- is it palm sunday
+- how long until purim
+- how long it is until christmas eve
+- how long is it until new years day
+- when will april fools day
+- what is the date of flag day
+- what's the date of groundhog day
+- which day is mothers day
+- is today father's day
+- when are chanukah
+- when will hanukkah start
+- when will our ramadan end
+- when does eid start
+- is christmas going to come today
+- are you sure new years eve is this weekend
+- will you tell me if presidents day is next month
+- is ash wednesday next week
+- when's kwanzaa
+- is chinese new year this thursday
+- is mlk day next monday
+- will it be saint patricks day next weekend
+- is the end of ramadan next saturday
+- when's christmas
+- is this monday labor day
+- is next wednesday ash wednesday
+- is friday christmas day

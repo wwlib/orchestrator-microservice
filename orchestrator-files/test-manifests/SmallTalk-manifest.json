@@ -1,0 +1,138 @@
+{
+    "tests": [
+        {
+            "utterance": "what time is it",
+            "label": "Time"
+        },
+        {
+            "utterance": "que hora es",
+            "label": "Time"
+        },
+        {
+            "utterance": "when is he arriving",
+            "label": "Time"
+        },
+        {
+            "utterance": "I need some exercise",
+            "label": "Fitness"
+        },
+        {
+            "utterance": "did you see the game",
+            "label": "SmallTalk:didWatchEvent"
+        },
+        {
+            "utterance": "do you believe in unicorns",
+            "label": "SmallTalk:doesBelieveInThing"
+        },
+        {
+            "utterance": "is there such a thing as dragons",
+            "label": "SmallTalk:doesBelieveInThing"
+        },
+        {
+            "utterance": "do you follow baseball",
+            "label": "SmallTalk:doesCareAboutEvent"
+        },
+        {
+            "utterance": "did you see the new star wars movie",
+            "label": "SmallTalk:didWatchEvent"
+        },
+        {
+            "utterance": "are you afraid of the dark",
+            "label": "SmallTalk:doesFeelEmotionAboutThing"
+        },
+        {
+            "utterance": "do you have a favorite color",
+            "label": "SmallTalk:doesHaveFavorite"
+        },
+        {
+            "utterance": "what is your favorite sport",
+            "label": "SmallTalk:doesHaveFavorite"
+        },
+        {
+            "utterance": "do you like ice cream",
+            "label": "SmallTalk:doesHaveFavorite"
+        },
+        {
+            "utterance": "te gusta la pizza",
+            "label": "SmallTalk:doesHaveFavorite"
+        },
+        {
+            "utterance": "what is your least favorite sport",
+            "label": "SmallTalk:doesHaveLeastFavorite"
+        },
+        {
+            "utterance": "what is your least favorite sport",
+            "label": "SmallTalk:doesHaveLeastFavorite"
+        },
+        {
+            "utterance": "te gusta la pizza",
+            "label": "SmallTalk:doesHaveFavorite"
+        },
+        {
+            "utterance": "do you have an opinion about mars",
+            "label": "SmallTalk:doesHaveOpinionAboutThing"
+        },
+        {
+            "utterance": "what are your thoughts about baseball",
+            "label": "SmallTalk:doesHaveOpinionAboutThing"
+        },
+        {
+            "utterance": "do you celebrate easter",
+            "label": "SmallTalk:doesHavePlansForEvent"
+        },
+        {
+            "utterance": "do you have plans for this weekend",
+            "label": "SmallTalk:doesHavePlansForEvent"
+        },
+        {
+            "utterance": "who's your father",
+            "label": "SmallTalk:doesHaveRelation"
+        },
+        {
+            "utterance": "do you have any cousins",
+            "label": "SmallTalk:doesHaveRelation"
+        },
+        {
+            "utterance": "have you heard of mr. bean",
+            "label": "SmallTalk:doesKnowPerson"
+        },
+        {
+            "utterance": "how tall is the house",
+            "label": "SmallTalk:howQuestion"
+        },
+        {
+            "utterance": "how far away is mars",
+            "label": "SmallTalk:howQuestion"
+        },
+        {
+            "utterance": "do you know how much a boat costs",
+            "label": "SmallTalk:howQuestion"
+        },
+        {
+            "utterance": "what makes the world go around",
+            "label": "SmallTalk:whatQuestion"
+        },
+        {
+            "utterance": "what country is this",
+            "label": "SmallTalk:whatQuestion"
+        },
+        {
+            "utterance": "where is finland",
+            "label": "SmallTalk:whereQuestion"
+        },
+        {
+            "utterance": "who took the cookie",
+            "label": "SmallTalk:whoQuestion"
+        },
+        {
+            "index": "000002",
+            "utterance": "why is the ocean blue",
+            "label": "SmallTalk:whyQuestion"
+        },
+        {
+            "index": "000002",
+            "utterance": "why are some apples green?",
+            "label": "SmallTalk:whyQuestion"
+        }
+    ]
+}

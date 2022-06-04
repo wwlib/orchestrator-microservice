@@ -1,0 +1,16 @@
+{
+    "tests": [
+        {
+            "utterance": "let's do some yoga",
+            "label": "Fitness"
+        },
+        {
+            "utterance": "do you like yoga",
+            "label": "Fitness"
+        },
+        {
+            "utterance": "teach me some yoga",
+            "label": "Fitness"
+        }
+    ]
+}

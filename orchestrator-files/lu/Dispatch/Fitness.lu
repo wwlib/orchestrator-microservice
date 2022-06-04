@@ -1,0 +1,38 @@
+> LUIS application information
+> !# @app.name = Fitness
+> !# @app.desc = Fitness
+> !# @app.versionId = 0.01
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
+## exercise
+- let's get sweaty
+- let's do some exercise
+- i wanna work out
+- i would like to do yoga
+- let us do a bunch of yoga
+
+## likeFitness
+- do you like that yoga stuff
+- do you like our exercise session
+- do you enjoy doing yoga
+- do you like working out with us
+- do you enjoy the yoga
+- do you love when we do yoga
+- do you love when we work out
+- do you like when we're doing yoga
+
+## fitnessHelp
+- tell me how we can do yoga
+- teach me how to do yoga
+- tell us how to do yoga
+- how do i do yoga
+- how does someone do yoga
+- how does one do the exercise thing
+- how do you do the yoga thing
+- instructions for doing yoga
+- give instructions about the yoga thing
+- lesson on the yoga thing
+- give me a yoga tutorial
+- give us an exercise tutorial

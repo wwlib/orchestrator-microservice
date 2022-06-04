@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<!-- See: https://getbootstrap.com/docs/5.2/examples/dashboard/ -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Console</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link href="/dashboard/dashboard.css" rel="stylesheet">
+
+    <script src="/auth/auth.js"></script>
+
+</head>
+
+<body>
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="/">Orchestrator Microservice</a>
+        <input class="form-control form-control-dark w-100 rounded-0 border-0" type="text" placeholder="Search"
+            aria-label="Search">
+        <div class="navbar-nav navbar-userId">
+            <div class="navbar-userId-label">userId:</div>
+            <div>{{userId}}</div>
+        </div>
+        <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+                <div class="nav-link px-3" onclick="signOut()">Sign out</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link {{linkStates.dashboard}}" href="/dashboard/">
+                                <span data-feather="home" class="align-text-bottom"></span>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {{linkStates.console}}" href="/console/">
+                                <span data-feather="layers" class="align-text-bottom"></span>
+                                Console
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/signin/">
+                                <span data-feather="users" class="align-text-bottom"></span>
+                                Sign in
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Console</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <form>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="resolverNameSelect" name="resolverName">
+                                    <option selected="{{#if resolverName}}{{resolverName}}{{else}}Dispatch{{/if}}">{{#if resolverName}}{{resolverName}}{{else}}Dispatch{{/if}}</option>
+                                    <option value="Dispatch">Dispatch</option>
+                                    <option value="SmallTalk">SmallTalk</option>
+                                    <option value="2-Stage">2-Stage (Dispatch  -> Domain-specific Model)</option>
+                                </select>
+                                <label for="resolverNameSelect">Resolver</label>
+                            </div>
+                            <div class="form-floating mt-2">
+                                <input class="form-control" list="utteranceOptions" id="utteranceField" name="utterance"
+                                    placeholder="Type to search..." value="{{utterance}}">
+                                <datalist id="utteranceOptions">
+                                    <option value="What time is it">
+                                    <option value="Do you like me"></option>
+                                    <option value="Am I your friend"></option>
+                                    <option value="Do you like ice cream">
+                                    <option value="How should we celebrate Easter">
+                                </datalist>
+                                <label for="utteranceField" class="form-label">Utterance</label>
+                            </div>
+                            <p></p>
+                            <button class="w-100 btn btn-lg btn-primary" type="submit">Submit</button>
+                            <div class="mt-2 mb-2 example-utterances">
+                                <div>Example utterances:</div>
+                                <ul>
+                                    <li>What time is it</li>
+                                    <li>Do you like me</li>
+                                    <li>Am I your friend</li>
+                                    <li>Do you like ice cream</li>
+                                    <li>How should we celebrate Easter</li>
+                                    <li>I need some exercise</li>
+                                    <li>Set an alarm</li>
+                                    <li>Make a reservation</li>
+                                    <li>What is biology</li>
+                                    <li>Are you happy?</li>
+                                </ul>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Summary [{{utterance}}]</h5>
+                                <pre class="card-text">{{{summary}}}</pre>
+                            </div>
+                        </div>
+                        <p></p>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Details</h5>
+                                <pre class="card-text">{{{details}}}</pre>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </main>
+        </div>
+
+        <footer class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+            <div></div>
+            <div class="align-items-center">
+                <span class="mb-3 mb-md-0 text-muted"><a
+                        href='https://github.com/wwlib/orchestrator-microservice'>@wwlib:
+                        Orchestrator Microservice</a></span>
+            </div>
+            <div></div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
+        integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+
+    <script src="/dashboard/console.js"></script>
+</body>
+
+</html>

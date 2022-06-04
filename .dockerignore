@@ -1,0 +1,11 @@
+dist
+hide
+node_modules
+.env
+notebooks
+orchestratorsettings.json
+# orchestrator-files/lu/*.lu
+orchestrator-files/blu/*.blu
+orchestrator-files/model/*
+!orchestrator-files/model/model-notes.md
+!tools/.env
