@@ -70,7 +70,7 @@
                         <form>
                             <div class="form-floating mb-3">
                                 <select class="form-select" id="resolverNameSelect" name="resolverName">
-                                    <option selected="{{#if resolverName}}{{resolverName}}{{else}}Dispatch{{/if}}">{{#if resolverName}}{{resolverName}}{{else}}Dispatch{{/if}}</option>
+                                    <option selected="{{#if resolverName}}{{resolverName}}{{else}}2-Stage{{/if}}">{{#if resolverName}}{{resolverName}}{{else}}2-Stage{{/if}}</option>
                                     <option value="Dispatch">Dispatch</option>
                                     <option value="SmallTalk">SmallTalk</option>
                                     <option value="2-Stage">2-Stage (Dispatch  -> Domain-specific Model)</option>
@@ -81,11 +81,11 @@
                                 <input class="form-control" list="utteranceOptions" id="utteranceField" name="utterance"
                                     placeholder="Type to search..." value="{{utterance}}">
                                 <datalist id="utteranceOptions">
-                                    <option value="What time is it">
-                                    <option value="Do you like me"></option>
-                                    <option value="Am I your friend"></option>
-                                    <option value="Do you like ice cream">
-                                    <option value="How should we celebrate Easter">
+                                    <option value="What time is it?">
+                                    <option value="what is your least favorite sport?"></option>
+                                    <option value="Hi there?"></option>
+                                    <option value="Do you like ice cream?">
+                                    <option value="How should we celebrate Easter?">
                                 </datalist>
                                 <label for="utteranceField" class="form-label">Utterance</label>
                             </div>
@@ -94,16 +94,16 @@
                             <div class="mt-2 mb-2 example-utterances">
                                 <div>Example utterances:</div>
                                 <ul>
-                                    <li>What time is it</li>
-                                    <li>Do you like me</li>
-                                    <li>Am I your friend</li>
-                                    <li>Do you like ice cream</li>
-                                    <li>How should we celebrate Easter</li>
-                                    <li>I need some exercise</li>
-                                    <li>Set an alarm</li>
-                                    <li>Make a reservation</li>
-                                    <li>What is biology</li>
-                                    <li>Are you happy?</li>
+                                    <li>What time is it?</li>
+                                    <li>what is your least favorite sport?</li>
+                                    <li>Hi there?</li>
+                                    <li>Do you like ice cream?</li>
+                                    <li>How should we celebrate Easter?</li>
+                                    <li>I need some exercise?</li>
+                                    <li>Te gusta la pizza?</li>
+                                    <li>Are you afraid of the dark?</li>
+                                    <li>What is biology?</li>
+                                    <li>What are your thoughts about baseball?</li>
                                 </ul>
                             </div>
                         </form>
