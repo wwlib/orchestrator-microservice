@@ -133,6 +133,26 @@
             "index": "000002",
             "utterance": "why are some apples green?",
             "label": "SmallTalk:whyQuestion"
+        },
+        {
+            "index": "000002",
+            "utterance": "i'm feeling down",
+            "label": "SmallTalk:userFeels"
+        },
+        {
+            "index": "000002",
+            "utterance": "i feel good",
+            "label": "SmallTalk:userFeels"
+        },
+        {
+            "index": "000002",
+            "utterance": "good afternoon, pal",
+            "label": "SmallTalk:greeting"
+        },
+        {
+            "index": "000002",
+            "utterance": "hi there",
+            "label": "SmallTalk:greeting"
         }
     ]
 }

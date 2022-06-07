@@ -4,7 +4,7 @@ const jsonfile = require('jsonfile');
 const oc = require('@microsoft/orchestrator-core');
 
 const modelFolder = './model';
-const snapshotFile = './blu/orchestrator.blu';
+const snapshotFile = './blu/Dispatch.blu';
 
 let orchestrator = null;
 let resolver = null;
@@ -47,7 +47,7 @@ initializeModel();
 console.log('... model initialization complete.');
 
 const modelName = 'Fitness';
-const fitnessManifest = jsonfile.readFileSync(`../orchestrator-files/test-manifests/${modelName}-manifest.json`);
+const fitnessManifest = jsonfile.readFileSync(`./test-manifests/${modelName}-manifest.json`);
 // console.log(fitnessManifest.tests.slice(0,3));
 
 console.log('Starting tests ...');

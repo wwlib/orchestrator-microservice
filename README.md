@@ -114,7 +114,7 @@ USE_AUTH=false
 `docker run -it --rm -p 8000:8000 --env-file ./.env orchestrator-microservice`
 - or `npm run docker:run`
 
-2gb should be enought to run the `pretrained.20200924.microsoft.dte.00.06.en.onnx` model.
+2gb should be enough to run the `pretrained.20200924.microsoft.dte.00.06.en.onnx` model.
 
 However, if more memory is needed try something like:
 

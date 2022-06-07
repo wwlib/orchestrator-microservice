@@ -13,10 +13,12 @@
     "lint:fix": "npm run lint -- --fix",
     "lint:ci": "eslint --ext js,ts src test -f junit -o lint-report.xml",
     "test": "echo TODO",
+    "test:microservice": "node test/test-microservice.js",
     "test:ci": "echo TODO",
     "clean": "rm -rf dist node_modules",
     "generate": "sh ./orchestrator-files/generateSnapshots.sh",
     "get-model": "sh ./orchestrator-files/downloadModel.sh",
+    "intents-to-lu-files": "cd orchestrator-files; node intentsToLuFiles.js",
     "docker:build": "docker build -t orchestrator-microservice .",
     "docker:run": "docker run -it --rm -p 8000:8000 --env-file ./.env orchestrator-microservice"
   },

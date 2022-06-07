@@ -129,6 +129,16 @@
 - have you heard of bob?
 - do you know iron man?
 
+## greeting
+- good morning
+- good morning, buddy
+- good morning, pall
+- good morning, friend
+- good afternoon
+- good evening
+- good night
+- it's great to see you
+
 ## howQuestion
 - do you know how big a horse is?
 - how big is a horse?
@@ -250,6 +260,11 @@
 - why are apples {@color=red}?
 - why are fruits colorful?
 - why do the birds keep on singing?
+
+## userFeels
+- i feel lonely
+- i feel great today
+- i could use some encouragement
 
 @ list Color hasRole color =
 	- Amber :
