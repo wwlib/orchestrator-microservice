@@ -7,127 +7,127 @@
 > !# @app.tokenizerVersion = 1.0.0
 
 ## didWatchEvent
-- did you watch the game?
-- did you catch the national championships game?
-- have you caught the oscars?
-- were you able to catch the oscar's?
+- did you watch the game
+- did you catch the national championships game
+- have you caught the oscars
+- were you able to catch the oscar's
 
 ## doesBelieveInThing
-- are unicorns real?
-- are dragons real?
-- do you believe in santa?
-- does the tooth fairy exist?
-- does god exist?
-- is the easter bunny actually real?
-- is there actually a tooth fairy?
-- is santa clause actually real?
+- are unicorns real
+- are dragons real
+- do you believe in santa
+- does the tooth fairy exist
+- does god exist
+- is the easter bunny actually real
+- is there actually a tooth fairy
+- is santa clause actually real
 
 ## doesCareAboutEvent
-- are you following the basketball all star game?
-- do you care about the grammy awards?
-- will you be following the golden globes?
-- do you follow formula 1 racing?
+- are you following the basketball all star game
+- do you care about the grammy awards
+- will you be following the golden globes
+- do you follow formula 1 racing
 
 ## doesFeelEmotionAboutThing
-- are you excited about the academy awards?
-- do skeletons make you scared?
-- do thunderstorms make you scared?
-- does elizabeth scare you?
+- are you excited about the academy awards
+- do skeletons make you scared
+- do thunderstorms make you scared
+- does elizabeth scare you
 - does rainy weather make you freaked out
-- do storms scare you?
-- would a goblin make you freak out?
-- would darkness make you freak out?
-- are you afraid of anything?
+- do storms scare you
+- would a goblin make you freak out
+- would darkness make you freak out
+- are you afraid of anything
 
 ## doesHaveFavorite
-- do you have a favorite thing to eat?
-- what are your favorite times of day?
-- what is your favorite food?
-- what is your favorite activity?
-- what is your favorite type of movie?
-- what type of music do you like the most?
-- what christmas movie do you like?
-- what foods are your favorite?
-- what food do you like best?
-- what hobbies do you like the best?
-- what ice cream flavor is your favorite?
-- what name did you like the best?
-- what presidents do you like best?
-- what's your favorite thing to eat?
-- when is your favorite time of day?
-- when's your favorite season?
-- which is your favorite reindeers?
-- which celebrities did you like best?
-- which celebrity is your favorite?
-- which colors are your favorites?
-- which color do you like the best?
-- which country singers do you like the best?
-- which movie do you love the most?
-- which reindeer do you like the most?
-- which super heroes do you like best?
-- who is your favorite actor?
-- who's your favorite author?
+- do you have a favorite thing to eat
+- what are your favorite times of day
+- what is your favorite food
+- what is your favorite activity
+- what is your favorite type of movie
+- what type of music do you like the most
+- what christmas movie do you like
+- what foods are your favorite
+- what food do you like best
+- what hobbies do you like the best
+- what ice cream flavor is your favorite
+- what name did you like the best
+- what presidents do you like best
+- what's your favorite thing to eat
+- when is your favorite time of day
+- when's your favorite season
+- which is your favorite reindeers
+- which celebrities did you like best
+- which celebrity is your favorite
+- which colors are your favorites
+- which color do you like the best
+- which country singers do you like the best
+- which movie do you love the most
+- which reindeer do you like the most
+- which super heroes do you like best
+- who is your favorite actor
+- who's your favorite author
 
 ## doesHaveLeastFavorite
-- do you have a least favorite animal?
-- what are your least favorite colors?
-- what is your least favorite bird?
-- what smell is your least favorite?
-- what's your least favorite movie?
-- when is your least favorite time of day?
-- when's your least favorite season?
-- which is your least favorite band?
-- which movies are your least favorite?
-- which video game is your least favorite?
+- do you have a least favorite animal
+- what are your least favorite colors
+- what is your least favorite bird
+- what smell is your least favorite
+- what's your least favorite movie
+- when is your least favorite time of day
+- when's your least favorite season
+- which is your least favorite band
+- which movies are your least favorite
+- which video game is your least favorite
 
 ## doesHaveOpinionAboutThing
-- do you have an opinion about belgian waffles?
-- how do you feel about the dark?
-- what are your thoughts on the dark?
-- what did you think of cornflake?
-- what do you think about the moon?
-- what is your opinion of autumn?
-- what're your thoughts on the moon?
-- what's your opinion of easter?
+- do you have an opinion about belgian waffles
+- how do you feel about the dark
+- what are your thoughts on the dark
+- what did you think of cornflake
+- what do you think about the moon
+- what is your opinion of autumn
+- what're your thoughts on the moon
+- what's your opinion of easter
 
 ## doesHavePlansForEvent
-- are you actually celebrating passover?
-- do you celebrate hanukah?
-- do you actually celebrate new years?
-- will you celebrate thanksgiving?
-- do you celebrate holiday?
-- do you got any plans for easter?
-- got plans on columbus day?
-- got cinco de mayo plans?
-- how are you celebrating diwali?
-- how will you celebrate 1st day of spring?
-- how're you celebrating ash wednesday?
-- what are you celebrating on holi?
-- what did you do for african american history month?
-- what do you do for martin luther king junior day?
-- what plans do you have for today?
-- what do you want to do this weekend?
-- what you are celebrating on easter?
-- what're planning for christmas?
-- what're you celebrating on chinese new year?
-- what're your plans for the day?
-- what's your plan for the day?
-- where are you celebrating new years eve?
-- where do you celebrate chocolate rasins day?
-- where will you celebrate rosh hashanah?
-- where would you celebrate ramadan?
+- are you actually celebrating passover
+- do you celebrate hanukah
+- do you actually celebrate new years
+- will you celebrate thanksgiving
+- do you celebrate holiday
+- do you got any plans for easter
+- got plans on columbus day
+- got cinco de mayo plans
+- how are you celebrating diwali
+- how will you celebrate 1st day of spring
+- how're you celebrating ash wednesday
+- what are you celebrating on holi
+- what did you do for african american history month
+- what do you do for martin luther king junior day
+- what plans do you have for today
+- what do you want to do this weekend
+- what you are celebrating on easter
+- what're planning for christmas
+- what're you celebrating on chinese new year
+- what're your plans for the day
+- what's your plan for the day
+- where are you celebrating new years eve
+- where do you celebrate chocolate rasins day
+- where will you celebrate rosh hashanah
+- where would you celebrate ramadan
 
 ## doesHaveRelation
-- do you actually have an uncle?
-- do you have an sister?
-- do you have an brother?
-- who is your mother?
+- do you actually have an uncle
+- do you have an sister
+- do you have an brother
+- who is your mother
 - 
 ## doesKnowPerson
-- are you familiar with david?
-- do you know baymax?
-- have you heard of bob?
-- do you know iron man?
+- are you familiar with david
+- do you know baymax
+- have you heard of bob
+- do you know iron man
 
 ## greeting
 - good morning
@@ -140,126 +140,126 @@
 - it's great to see you
 
 ## howQuestion
-- do you know how big a horse is?
-- how big is a horse?
-- how did mama cass die?
-- how do plants grow?
-- how does a greg look?
-- how expensive is golden corral?
-- how far are we from jupiter?
-- how fast are we traveling through space?
-- how high is mount everest?
-- how hot is it in saudi arabia?
-- how is it hot outside?
-- how long ago was benjamin franklin born?
-- how many animals are on the planet?
-- how much does a hen weigh?
-- how old is the earth?
-- how tall is an elephant?
-- - how tall is mount everest?
-- how to build a house with bricks drawers in?
-- how warm is it tonight?
+- do you know how big a horse is
+- how big is a horse
+- how did mama cass die
+- how do plants grow
+- how does a greg look
+- how expensive is golden corral
+- how far are we from jupiter
+- how fast are we traveling through space
+- how high is mount everest
+- how hot is it in saudi arabia
+- how is it hot outside
+- how long ago was benjamin franklin born
+- how many animals are on the planet
+- how much does a hen weigh
+- how old is the earth
+- how tall is an elephant
+- - how tall is mount everest
+- how to build a house with bricks drawers in
+- how warm is it tonight
 
 ## whatQuestion
-- do you know what blueberries are?
-- what about the toilet paper roll is so perfectly designed?
-- what airline flies from san antonio to hawaii?
-- what are birkenstocks?
-- what books did ernest hemingway write?
-- what can you tell me about dog sledding?
-- what city am i in?
-- what color is a banana?
-- what controller paper do?
-- what could a woodchuck do if it can't work truck do?
-- what country uses the lira?
-- what did damon do?
-- what do cool equals 4?
-- what does a gorilla say?
-- what else to do?
-- what fats are the cushions and stuff?
-- what football team won the superbowl in 2001?
-- what gang kamaiyah?
-- what goes on a reuben?
-- what holiday is coming up?
-- what insects attack gerbera daisies?
-- what is 1 divided by 9?
-- what kind of plant of garbanzo beans is?
-- what language do cuban's speak?
-- what makes us all?
-- what month was i born in?
-- what more could you want?
-- what movies have justin timberlake?
-- what nationality was jesus christ?
-- what noise does a cat make?
-- what number with it?
-- what other language do you know?
-- what part of the egg is the most houston?
-- what planet are we on?
-- what president was impeached?
-- what robots do you know from star wars?
-- what see's candy?
-- what should me and kenny play?
-- what show is this?
-- what sleep?
-- what sound does a giraffe make?
-- what species is a dog?
-- what star trek?
-- what state am i in?
-- what team does lebron james play on?
-- what tellen aber?
-- what temperature is it in ventura california?
-- what time is sunrise tomorrow?
-- what timezone?
-- what town am i in?
-- what us president didn't like broccoli?
-- what was a tea bag?
-- what were the g-forces of the family?
-- what's the square root of 5000 + 15?
-- what will happen to you if your not exist says?
-- what year are we in?
+- do you know what blueberries are
+- what about the toilet paper roll is so perfectly designed
+- what airline flies from san antonio to hawaii
+- what are birkenstocks
+- what books did ernest hemingway write
+- what can you tell me about dog sledding
+- what city am i in
+- what color is a banana
+- what controller paper do
+- what could a woodchuck do if it can't work truck do
+- what country uses the lira
+- what did damon do
+- what do cool equals 4
+- what does a gorilla say
+- what else to do
+- what fats are the cushions and stuff
+- what football team won the superbowl in 2001
+- what gang kamaiyah
+- what goes on a reuben
+- what holiday is coming up
+- what insects attack gerbera daisies
+- what is 1 divided by 9
+- what kind of plant of garbanzo beans is
+- what language do cuban's speak
+- what makes us all
+- what month was i born in
+- what more could you want
+- what movies have justin timberlake
+- what nationality was jesus christ
+- what noise does a cat make
+- what number with it
+- what other language do you know
+- what part of the egg is the most houston
+- what planet are we on
+- what president was impeached
+- what robots do you know from star wars
+- what see's candy
+- what should me and kenny play
+- what show is this
+- what sleep
+- what sound does a giraffe make
+- what species is a dog
+- what star trek
+- what state am i in
+- what team does lebron james play on
+- what tellen aber
+- what temperature is it in ventura california
+- what time is sunrise tomorrow
+- what timezone
+- what town am i in
+- what us president didn't like broccoli
+- what was a tea bag
+- what were the g-forces of the family
+- what's the square root of 5000 + 15
+- what will happen to you if your not exist says
+- what year are we in
 
 ## whereQuestion
-- do you know where france is?
-- where do komodo dragons live?
-- where does the president of the united states live?
-- where is australia?
-- where was golf first played?
+- do you know where france is
+- where do komodo dragons live
+- where does the president of the united states live
+- where is australia
+- where was golf first played
 
 ## whoQuestion
-- do you know who assassinated abraham lincoln?
-- tell me who ashley johnson's sister is?
-- tell us who won the nba championship in 2017?
-- who are the 2017 nba champs?
-- who assassinated abraham lincoln?
-- who coined the phrase black hole?
-- who created pizza?
-- who do the cubs play against this weekend?
-- who fought in world war ii?
-- who invented peanut butter?
-- who is adam smith 's wife?
-- who just walked in the door?
-- who made iphone games solitaire?
-- who makes coors light?
-- who owns the atlanta braves?
-- who played first base for the 69 mets?
-- who sang rock the casbar?
-- who sings bad liar?
-- who started christianity?
-- who was the 21st president?
-- who were the olsen twins?
-- who won the 1996 world series?
-- who wrote a farewell to arms?
+- do you know who assassinated abraham lincoln
+- tell me who ashley johnson's sister is
+- tell us who won the nba championship in 2017
+- who are the 2017 nba champs
+- who assassinated abraham lincoln
+- who coined the phrase black hole
+- who created pizza
+- who do the cubs play against this weekend
+- who fought in world war ii
+- who invented peanut butter
+- who is adam smith 's wife
+- who just walked in the door
+- who made iphone games solitaire
+- who makes coors light
+- who owns the atlanta braves
+- who played first base for the 69 mets
+- who sang rock the casbar
+- who sings bad liar
+- who started christianity
+- who was the 21st president
+- who were the olsen twins
+- who won the 1996 world series
+- who wrote a farewell to arms
 
 ## whyQuestion
-- do you know why cats always land on their feet?
-- why are firetrucks {@color=red}?
-- why do cats always land on their feet?
-- why are mondays so hard?
-- why do monkeys like bananas?
-- why is the sky {@color=blue}?
-- why are apples {@color=red}?
-- why are fruits colorful?
-- why do the birds keep on singing?
+- do you know why cats always land on their feet
+- why are firetrucks {@color=red}
+- why do cats always land on their feet
+- why are mondays so hard
+- why do monkeys like bananas
+- why is the sky {@color=blue}
+- why are apples {@color=red}
+- why are fruits colorful
+- why do the birds keep on singing
 
 ## userFeels
 - i feel lonely

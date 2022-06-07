@@ -68,7 +68,7 @@ export class SiteHandlers {
             console.log(result)
             const best = result[0];
             const summaryData = {
-                resovler: best.resolver,
+                resolver: best.resolver,
                 label: best.label.name,
                 closest_text: best.closest_text,
                 score: best.score, 
