@@ -4,6 +4,10 @@ Orchestrator is dnn-based intent clasifier made available as part of the Microso
 
 This microservice wraps the `@microsoft/orchestrator-core` module and exposes both an HTTP and WebSocket interface.
 
+### medium article
+
+See: [Using Microsoft Orchestrator for Intent Recognition and Dispatch to Luis](https://medium.com/@andrew.rapo/using-microsoft-orchestrator-for-intent-recognition-and-dispatch-to-luis-274eef3fc669)
+
 ### microservice-template
 
 This microservice is based on: https://github.com/wwlib/microservice-template
