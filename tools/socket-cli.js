@@ -7,11 +7,11 @@ const axios = require('axios');
 
 dotenv.config();
 
-// curl --location --request POST 'https://api.development.v2.jibo.com/v2/auth/login' \
+// curl --location --request POST 'http://localhost:8080/auth' \
 //     --header 'Content-Type: application/json' \
 //     --data-raw '{
-//        "username": "",
-//        "password": ""
+//        "username": "user1",
+//        "password": "aslkfjasld"
 //      }'
 
 async function getToken() {

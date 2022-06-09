@@ -19,8 +19,4 @@ RUN ./orchestrator-files/downloadModel.sh
 RUN ./orchestrator-files/generateSnapshots.sh
 RUN npm run build
 
-
-# ENV JIBO_SERVER_PORT=$CONTAINER_EXPOSE_PORT
-# EXPOSE $CONTAINER_EXPOSE_PORT
-
 CMD ["node", "./dist/index.js"]
