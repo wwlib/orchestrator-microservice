@@ -43,7 +43,7 @@ async function intentsToLuFiles() {
 
 async function doIt() {
     fs.rmSync(outputDirectory, { recursive: true, force: true });
-    console.log(`Splitting ${sourceModelPath} into invidual .lu files...`)
+    console.log(`Splitting ${sourceModelPath} into individual .lu files...`)
     await intentsToLuFiles()
     console.log('Done.')
 }
