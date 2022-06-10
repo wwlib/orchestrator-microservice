@@ -17,6 +17,14 @@
             "label": "Fitness"
         },
         {
+            "utterance": "Play auld lang syne",
+            "label": "Music"
+        },
+        {
+            "utterance": "Play space invaders",
+            "label": "Games"
+        },
+        {
             "utterance": "did you see the game",
             "label": "SmallTalk:didWatchEvent"
         },

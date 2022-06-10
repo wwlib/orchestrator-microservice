@@ -7,7 +7,7 @@ const axios = require('axios');
 
 dotenv.config();
 
-// curl --location --request POST 'http://localhost:8080/auth' \
+// curl --location --request POST 'http://localhost:8000/auth' \
 //     --header 'Content-Type: application/json' \
 //     --data-raw '{
 //        "username": "user1",
