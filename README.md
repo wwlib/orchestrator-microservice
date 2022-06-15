@@ -11,6 +11,8 @@ See: [Using Microsoft Orchestrator for Intent Recognition and Dispatch to Luis](
 ### microservice-template
 
 This microservice is based on: https://github.com/wwlib/microservice-template
+- [A Nodejs Microservice Template for Rapid Prototyping
+](https://medium.com/@andrew.rapo/a-nodejs-microservice-template-36f080fe1418)
 
 
 ### Orchestrator (c) Microsoft
