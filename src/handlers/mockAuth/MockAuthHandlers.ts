@@ -5,19 +5,8 @@ import { JwtAuth, AuthResult, ACCESS_TOKEN_NAME, REFRESH_TOKEN_NAME } from '@aut
 import { decode } from 'punycode';
 
 export class MockAuthHandlers {
-  private static instance: MockAuthHandlers;
 
-  private constructor() {
-  }
-
-  public static getInstance(): MockAuthHandlers {
-    if (!MockAuthHandlers.instance) {
-      MockAuthHandlers.instance = new MockAuthHandlers()
-    }
-    return MockAuthHandlers.instance
-  }
-
-  public authHandler: Handler = async (req: AuthRequest, res: Response) => {
+  static authHandler: Handler = async (req: AuthRequest, res: Response) => {
     const username = req.body?.username || req.query?.username
     const password = req.body?.password || req.query?.password
     // signIn
@@ -36,7 +25,7 @@ export class MockAuthHandlers {
     }
   }
 
-  public refreshHandler: Handler = async (req: AuthRequest, res: Response) => {
+  static refreshHandler: Handler = async (req: AuthRequest, res: Response) => {
     const refreshToken = req.cookies ? req.cookies[REFRESH_TOKEN_NAME] as string : ''
     if (refreshToken) {
       try {
